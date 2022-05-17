@@ -1,0 +1,15 @@
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\bin\Debug\net6.0\SocialSecurityNumber.exe
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\bin\Debug\net6.0\SocialSecurityNumber.deps.json
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\bin\Debug\net6.0\SocialSecurityNumber.runtimeconfig.json
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\bin\Debug\net6.0\SocialSecurityNumber.dll
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\bin\Debug\net6.0\ref\SocialSecurityNumber.dll
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\bin\Debug\net6.0\SocialSecurityNumber.pdb
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\obj\Debug\net6.0\SocialSecurityNumber.csproj.AssemblyReference.cache
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\obj\Debug\net6.0\SocialSecurityNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\obj\Debug\net6.0\SocialSecurityNumber.AssemblyInfoInputs.cache
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\obj\Debug\net6.0\SocialSecurityNumber.AssemblyInfo.cs
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\obj\Debug\net6.0\SocialSecurityNumber.csproj.CoreCompileInputs.cache
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\obj\Debug\net6.0\SocialSecurityNumber.dll
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\obj\Debug\net6.0\ref\SocialSecurityNumber.dll
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\obj\Debug\net6.0\SocialSecurityNumber.pdb
+C:\Users\Lapaz\source\repos\SocialSecurityNumber\SocialSecurityNumber\obj\Debug\net6.0\SocialSecurityNumber.genruntimeconfig.cache

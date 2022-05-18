@@ -1,0 +1,39 @@
+
+Manual de Usuario
+
+
+Introduccion
+Un numero de seguridad social es un numero de nueve dígitos emitidos a ciudadanos estadounidenses, residentes permanentes y residentes temporales bajo la sección 205 de la Ley del Seguro Social.
+Esta aplicación de consola tiene como objetivo validar que su numero de seguridad social se encuentre correcto.
+
+Instalación del Sistema
+Windows
+1.	Se debe tener una computadora con sistema operativo Windows.
+2.	Descargar C# y .NET Framework e instalarlo
+https://visualstudio.microsoft.com/es/vs/features/net-development/
+
+3.	Descargar git e instalarlo
+https://visualstudio.microsoft.com/es/vs/features/net-development/
+
+4.	Abre la terminal en tu directorio de códigos 
+
+5.	Corre estos comandos
+./{tu-directorio}
+$ git clone --bare https://external host.com/extuser/repo.git
+
+Ingreso al Sistema
+Al iniciar la aplicación se muestra una pantalla con un campo que muestra el texto “Enter your SSN”, en este campo se debe introducir su número de seguridad social.
+ 
+Al ingresar un numero de seguridad social incorrecto le mostrara el siguiente mensaje: "False"
+ 
+
+Información de uso
+1.	Su numero de seguridad social debe tener nueve dígitos.
+2.	Su numero de seguridad social se divide en tres partes cada una separada por un guion.
+3.	La primera parte debe contener tres dígitos y estos no deben ser 000,666, o entre 900 y 999.
+4.	La segunda parte debe contener dos dígitos y debe estar entre 01 a 99.
+5.	La tercera parte debe contener cuatro dígitos y debe estar entre 0001 a 9999.
+Si uno de estos puntos es incumplido el programa mostrara una alerta “Falso” y se cerrara.
+
+Glosario:
+SSN- Social Security Number (Numero de Seguridad Social).

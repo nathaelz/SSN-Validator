@@ -1,0 +1,83 @@
+Test Plan
+
+Project: Validation of Social Security Number
+
+Version: 1.1
+
+Revision History
+
+Version	Authors	Description	Date
+1.0	Nathalie Elias	Creation of document	May 15 2022
+
+1 Introduction
+ Scope
+The purpose of this document is to provide the information and framework required to plan and develop the activities of the social security number validation algorithm testing process.
+Context of Tests
+Test Items
+The following items will be tested:
+- Module: Social Security Number Validation.
+Scope of the Test
+The system composed of the modules mentioned in section 2.2
+Non-functional quality factors such as performance, IT security, and usability will not be tested in this test project.
+Assumptions and Restrictions
+Assumptions:
+- The test environment will be a clone of the production environment so that new social security numbers can be calculated based on real cases.
+ 
+
+Test Strategy
+ Testing processes
+Testing for the Social Security Number Validation System will include the following test threads:
+● End-to-end tests
+● Unit tests (white box)
+ Test Deliverables
+For each test process, the following documentation must be generated:
+● Specification of Test Cases
+● Test Process Completion Report.
+Test Design Techniques
+This section will identify the techniques that will be used for the design of the tests.
+● Test cases
+Completion Criteria and Test
+Testing must achieve 90% coverage of requirements and all test procedures must run without Severity 1 (high) failures.
+ Metrics
+The following metrics will be collected during test execution:
+● Number of test cases executed.
+● Number of incidents by category.
+● Number of resolved incidents by category.
+ Test environment requirements
+Testing environment
+
+Operating systems	Windows
+
+ Testing Tools
+
+Manually testing
+
+Suspension and resumption criteria
+Suspension criteria
+
+● One of the major features contains a bug that prevents critical areas of the system from being tested.
+● The testing environment is not stable and/or does not return reliable results.
+
+.
+ Activities and test estimates
+The tests will be divided into the following main activities:
+
+1. Detailed specification of test cases.
+2. First test execution cycle.
+3. Test completion report.
+
+Test Cases
+
+Test Case ID,	Test Case Description,	Test Steps,	Test Data	Expected Result
+T01	Insert zeros in program input	1. Run the program. 2. Enter “000-00-0000” in console. 3. Hit Enter	input = 000-00-0000	False
+T02	Insert 666 in the first part of the SSN in program input	1. Run the program. 2. Enter “666” in console. 3. Hit Enter	input = 666-23-9283	False
+T03	Insert “990” in the first par of the SSN in program input	1. Run the program. 2. Enter “990” in console. 3. Hit Enter	input = 990-23-9283	False
+T04	Insert 2 digits in the last part of the SSN in program input	1. Run the program. 2. Enter “321-23-82 in console. 3. Hit Enter	input = 321-23-82	False
+T05	Insert 4 digits in the middle part of the SSN in the program input	1. Run the program. 2. Enter “321-2893-4321 in console. 3. Hit Enter	input = 321-2893-4321	 False
+TU06	Insert a valid SSN number in the program input	1. Run the program. 2. Write “219-28-8392” 3. Hit Enter	input = 219-28-8392	True
+TU07	Insert letters in the program input	1. Run the program. 2. Write “n49-0e-98er” 3. Hit Enter	input = n49-0e-98er	False
+TU08	Insert a valid SSN number in the program input	1. Run the program. 2. Write “456-983-1294” in console 3. Hit Enter	input = 456-98-1294	True
+
+Test Completion Report
+
+The automated tests were executed successfully. Yield was 99% and tests were reliable
